@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Quiz.ca</title><!--Title of page-->
+
+        <!--Meta information about page-->
+        <meta charset="utf-8">
+        <meta name="description" content="CollegeProject">
+        <meta name="keyword" content="quiz">
+        <meta name="author" content="TejinderPalSingh">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--linking page to external resources like icon, stylesheet and other libraries like font awesome, google fonts etc.   -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styleSheet.css">
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Corben|EB+Garamond|Fredoka+One|Markazi+Text|Noto+Serif" rel="stylesheet">
+        <link href="plugins/jquery-ui/jquery-ui.css" rel="stylesheet">
+
+        <!--linking page to external scripts ie. a javascript file and many more including jquery etc.-->       
+        <script type="Text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="Text/javascript" src="javascript/script.js"></script>
+        <script type="Text/javascript" src="plugins/jquery-ui/jquery-ui.js"></script>
+    </head>
+
+    <body class="margin20 padding border">
+        <header class="relative center">
+            <div class="padding20 inlineBlock">
+                <a href="index.html" class="inlineBlock zero"><img src="img/favicon.png"  class="zero small logo inlineBlock" alt="logo of Quiz.ca"/></a>
+                <h1 class="inlineBlock rightFloat marginLeft20 jumbo skyBlue" id="name">Quizz..!!</h1>
+            </div>
+        </header>
+        <nav><ul class="styleNone paddingRight center" id="nav"></ul></nav>
+
+        <main class="center">
+            <div id="question"></div>
+            <div id="options" class="marginLeft30"></div>
+            <div id="buttons" class="marginTop">
+                <input type="button" class="button skyblueBackground" name="prev" value="prev" id="prev">
+                <input type="button" class="button greenBackground" name="submit" value="Submit" id="submit">
+                <input type="button" class="button skyblueBackground" name="next" value="next" id="next"> 
+            </div>
+            <section><div id="dialog" title="Your Result is"></div></section>
+        </main>
+        <footer>
+            <div class="footerBar">
+                <section class="border bar shadow zero bottom" style="width: 100%">
+    <!--bottom bar-->
+                    <label id="footerLabel" class="inline zero inline marginLeft marginTop black">Submitted to Mr. Rubem Linn.</label>
+                    <h5 class="padding zero white">A Project By Palwinder Kaur, Arundeep Sngh, Xiao Wu, Parvinder Singh, Tejinder Pal Singh.</h5>
+    
+                </section>
+            </div>
+            
+
+        </footer>
+    </body>
+
+</html>

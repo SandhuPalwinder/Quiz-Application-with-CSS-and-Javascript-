@@ -1,0 +1,689 @@
+/*styling for tags*/
+
+
+/*styling for body tag*/
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #575555;
+	background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px #3b3838 solid;
+}
+/*styling for h1-2*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Corben', cursive;
+}
+/*styling for th tag*/
+th{
+    text-align: center;
+    padding: 16px;
+    font-family: 'Prosto One', cursive;
+}
+/*styling for tr tag*/
+tr{
+    text-align: center;
+    padding: 16px;
+    font-family: 'Fredoka One', cursive;
+}
+/*styling for anchor tag*/
+a{
+    font-family: 'Noto Serif', 'serif';
+    z-index: 1000;
+}
+/*styling for article tag*/
+article{
+    font-family: 'Abril Fatface', cursive;
+}
+/*styling for p tag*/
+p{
+font-family: 'Markazi Text', serif;
+    text-align: justify;
+    font-size: large;
+}
+/*styling for header tag*/
+header{
+    background-color: #f5f5f5;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGUlEQVQ4y2NgoBJwoJAedcGoC0ZdMOAuAABF0hABJ/8lyQAAAABJRU5ErkJggg==);
+  background-attachment: fixed;
+}   
+/*styling for nav tag*/
+nav{
+	background-color: #241f1d;
+    padding: 3px;
+}
+
+/*styling for label tag*/
+label{
+    color: #989494;
+    font-size: small ;
+}
+/* Add a background color when the inputs get focus */
+input:focus, select:focus, select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+/*Styling for table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    width: 100%;
+}
+/*Styling for  evne children of li*/
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+/*Styling for  button*/
+.button {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button:click{ 
+      color: #3b3838
+  }
+  
+  
+
+
+
+/*styling for submitButton class*/
+.fourDivide{
+    width: 23%;
+}
+.submitButton {    
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    color: #f9f9f9;
+    font-size: 15px;
+    background-color: deepskyblue;
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.7;
+}
+/*styling for resetButton class*/
+.resetButton {    
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    color: #f9f9f9;
+    font-size: 15px;
+    background-color: #de1f1f;
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.7    ;
+}
+/*applying pseudo classes on them*/
+.submitButton:hover, .resetButton:hover{
+    opacity: 1;
+}
+
+.active{
+    background-color: #0061b1;
+}
+/*Styling for Modal Content/Box */
+.modal-content {
+    background-color: #ebe9e9;
+    border: 1px solid #888; 
+    color: #575555;
+    padding: 10px 0;
+    margin: 0;
+    overflow: hidden;
+}
+/*Styling for Login model id */
+#loginModal{
+    display: none;
+    position: absolute;
+    width: 40%;
+    top: 30px;
+    left: 30%;
+}
+
+/*Styling for subscribe */
+#signUpModal{
+    display: none;
+    position: absolute;
+    width: 40%;
+    top: 30px;
+    left: 30%;
+}
+
+
+/*Styling forpseudo classes */
+#loginModal:target {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    background: rgba(0,0,0,0.5);
+}
+#signUpModal:target {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    background: rgba(0,0,0,0.5);
+}
+ 
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+/*pseudo classes*/
+.close:hover,
+.close:focus {
+    color: #ef1201;
+    cursor: pointer;
+}
+.logo{
+    width: 180px;
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Styling using classes*/
+.orangeHover :hover{
+    color: #ff6c00 !important;
+}
+.redHover :hover{
+    color:  #d40000;
+}
+.blueHover:hover{
+    color: deepskyblue;
+    text-shadow: 1px 1px grey;
+    border-top: 2px solid #275869;
+    border-bottom: 2px solid #275869;
+
+}
+
+/*positioning*/
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+.top{
+    position: absolute;
+    top: 0;
+}
+.right{
+    position: absolute;
+    right: 0;
+
+}
+.left{
+    position: absolute;
+    left: 0;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed
+}
+
+
+
+
+/*display*/
+.inline{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.block{
+    display: block;
+}
+.inlineBlock{
+    display: inline-block;
+}
+.none{
+    display: none;
+}
+
+/*textaligning*/
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+/*float*/
+.rightFloat{
+	float: right;
+}
+
+
+/*margin*/
+.margin{
+	margin: 10px;
+}
+.margin0{
+    margin: 0px;
+}
+.marginBottom0{
+    margin-bottom: 0px;
+}
+.marginTop0{
+    margin: 0px 5px 15px 5px;
+}
+.margin20{
+	margin: 20px;
+}
+.marginTop{
+    margin-top: 10px;
+}
+.marginBottom{
+    margin-bottom: 10px;
+}
+.marginBottom35{
+    margin-bottom: 35px;
+}
+.marginTop35{
+	margin-top: 35px;
+}
+.marginTop{
+	margin-top: 10px;
+}
+.marginLeft{
+    margin-left: 10px
+}
+.marginLeft20{
+	margin-left: 20px;
+}
+.marginLeft30{
+	margin-left: 30px;
+}
+.marginTop25{
+    margin-top: 25px;
+}
+.marginSide{
+    margin: 0px 10px;
+}
+.marginSide0{
+    margin: 10px 0px;
+}
+.marginTopBottom25{
+    margin: 25px    10px;
+}
+.marginRight30{
+    margin-right: 30px;
+}
+
+
+/*padding*/
+.padding{
+	padding: 5px;
+}
+.paddingTop20{
+    padding-top: 20px;
+}
+.padding0{
+    padding: 0px;
+}
+.paddingLeft20{
+    padding-left: 20px;
+}
+.paddingTop25{
+    padding-top: 25px;
+}
+.paddingLeft{
+    padding-left: 10px;
+}
+.paddingRight{
+	padding-right: 20px;
+}
+.padding20{
+	padding: 20px;
+}
+.padding10{
+	padding: 10px;
+}
+.paddingTop0{
+    padding-top: 0;
+}
+.paddingTop{
+    padding-top: 10px;
+}
+.paddingBottom0{
+    padding-bottom: 0;
+}
+.paddingBottom{
+    padding-bottom: 10px;
+}
+.paddingSide{
+    padding: 0 10px;
+}
+.paddingSide0{
+    padding: 10px 0px;
+}
+.paddingTop30{
+    padding-top: 30px;
+}
+.zero{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*border*/
+.border{
+    border: 1px rgb(238, 234, 234) solid;
+}
+.customBorder{
+	border-radius:0px 50px;
+}
+.borderRadius{
+    border-radius: 8px; 
+}
+.borderTop{
+    border-top: 1px lightgrey solid;
+}
+.borderBottom{
+    border-bottom: 1px lightgrey solid;
+}
+.borderSide0{
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+.borderRight{
+    border-right: 1px grey solid;
+}
+.capsule{
+    border-radius: 50px;
+}
+.border0{
+    border: 0px;
+}
+.round{
+    border-radius: 50%;
+}
+.where{
+    border: 3px red solid;
+}
+
+/*colors*/
+.red{
+    color: #db3333;
+}
+.white{
+    background-color: #f9f9f9;
+}
+.whiteText{
+	color: #f5f0f0;
+}
+.grey{
+    color: #dbdbdb;
+}
+.greyBackground{
+    background-color: #3b3838;
+}
+.greenBackground{
+    background-color: green;    
+}
+.black{
+	color: #3e3c3c;
+}
+.blue{
+    color: blue;
+}
+.skyBlue{
+    color: deepskyblue;
+}
+.skyblueBackground{
+    background-color:  deepskyblue;
+}
+.redBackground, .red{
+    background-color: #db3333;
+}
+.redText{
+    color: #d90a0a;
+}
+.blackBackground{
+    background-color: #241f1d;
+}
+.orangeBackground{
+    background-color: #ff7200;
+}
+.blueBackground{
+    background: #275869;
+}
+.orange{
+    color: #ff7200;
+/*    ff6c00;*/
+}
+
+/*text styling*/
+.small{
+    font-size: small;
+}
+.textShadow{
+    text-shadow: 2px 2px grey;
+}
+.large{
+    font-size: large;
+}
+.decorationNone{
+	text-decoration: none;
+}
+.xlarge{
+	font-size: x-large;
+}
+.quotes{
+    font-size: xx-large;
+    font-style: oblique;
+}
+.justify{
+    text-align: justify;
+    overflow: scroll    
+}
+.jumbo{
+    font-size: 4em;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline      
+}
+.cut{
+    text-decoration: line-through;
+}
+
+
+.shadow{
+    box-shadow: 10px 5px 4px #888;
+}
+.styleNone{
+	list-style: none;
+}
+.bar{
+    background-color: #c9c9c9;
+}
+.clearBoth:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.opacity{
+    opacity: 0.7;
+}
+.pointer{
+    cursor: pointer;
+}
+.z-index{
+    z-index: 1000;
+}       
+.height100{
+    height: 95%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navHeight{
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+/*    divide screen in 3 parts for social*/
+    .divide3{
+        width: 25%;
+        height: 90%;
+        padding: 10px;
+        display: inline-block;
+        overflow: auto;
+    }
+
+/*    Company name*/
+    #name{   
+        margin-top: 35px;
+        padding-top: 30px;
+    }
+/*    shadow*/
+    .cards{
+        box-shadow: 10px 10px 5px grey;
+        text-align: justify;
+        width: 98%;
+    }
+/*    logo*/
+    #logo{
+        width: 30%;
+    }
+/*    card image*/
+    .cardImg{
+        margin-left: 25px;
+        width: 275px;
+        box-shadow: 10px 10px 5px grey;
+    }
+/*    footer*/
+    .footerBar{
+        position: fixed;
+        bottom: 0px;
+        clear: both;
+        display: table;
+        height: 80px;
+        width: 99.5%;
+    }
+/*    text alignment in footer*/
+	.textAlign{
+		width: 80%;
+		text-align: justify;
+	}
+/*    image alignment in footer(parsinni bibi)*/
+	.imgAlign{
+		width: 200px;
+        float: right;
+        right: 45px;     /*40*/
+        bottom: 0;
+        clear: both;
+        position: absolute;
+        top: -170px;        /*174*/
+	}
+    
+    .desc{
+        right: 150px;
+        position: absolute;
+        clear: both;
+    }
+/*    text overlapping image*/
+    .bannerText{
+        position: absolute;
+        top:  350px;
+        left: 30px;
+    }
+/*    main imag of the page*/
+    .banner{
+        width: 100%;
+        display: flex;
+        background-size: cover;
+    }
+/*    main navigation bar*/
+    #navBar{
+        right: 0;
+        top: 15px;
+    }
+/*    for quotations*/
+    .quoteBox{
+        width: 78%;
+    }  
+    
+/*    popup modals*/
+    .modal{
+        width: 40%;
+        background-color: #f9f9f9;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+/*    for inputs among form tag*/
+    .formInput{
+        width: 97%;
+        margin: auto;
+    }
+/*    sub navigation bar*/
+    #service:hover #subNav{
+        display: block !important;
+        background-color: #241f1d;
+        position: absolute;
+        padding: 10px;
+        top: 30px;
+        left: 100px;    
+    }
+
+/*    specifying height of embede social media*/
+    .embedSocial{
+        height: 500px;
+    }
+    .demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}
